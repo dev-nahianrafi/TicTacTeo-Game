@@ -1,0 +1,82 @@
+.app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+:root{
+  --black : hsl(199, 35%, 19%);
+  --blue:  hsl(178, 60%, 48%);
+  --yellow : hsl(39, 100%, 69%);
+}
+body{
+  background-color: var(--black);
+  overflow: hidden;
+}
+
+.main--box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 40px;
+}
+.playerTurn{
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+.playerTurn{
+  font-size: 32px;
+  color: var(--yellow);
+}
+
+.btn--style--two{
+  border: none;
+  padding: 13px 45px;
+  background-color: var(--black);
+  border-radius: 15px;
+  -webkit-box-shadow: -1px 3px 26px -13px rgba(66, 68, 90, 1);
+  -moz-box-shadow: -1px 3px 26px -13px rgba(66, 68, 90, 1);
+  box-shadow: -1px 3px 26px -13px rgba(66, 68, 90, 1);
+  color: var(--blue);
+  cursor: pointer;
+  border-radius: 8px;
+  border: 1px solid var(--yellow);
+  font-size: 18px;
+  font-weight: 600;
+  transition: all linear 0.3s;
+}
+.btn--style--two:hover{
+  background-color: var(--yellow);
+  color: var(--black);
+  border: 1px solid var(--yellow);
+}
+
+.game--board{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  justify-content: center;
+  gap: 10px;
+}
+
+.cell{
+  height: 100px;
+  width: 100px;
+  border-radius: 8px;
+  border: none;
+  font-size: 50px;
+  background-color: var(--black);
+  border-radius: 15px;
+  -webkit-box-shadow: -1px 3px 26px 3px rgba(66, 68, 90, 1);
+  -moz-box-shadow: -1px 3px 26px 3px rgba(66, 68, 90, 1);
+  box-shadow: -1px 3px 26px 3px rgba(66, 68, 90, 1);
+  color: var(--blue);
+  font-weight: 700;
+  cursor: pointer;
+  transition: all linear 0.3s;
+}
+.cell:hover{
+  background-color: var(--blue);
+  color: var(--yellow);
+}
