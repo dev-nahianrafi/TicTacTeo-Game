@@ -83,6 +83,15 @@ body{
 
 
 @media only screen and (max-width: 575px){
+  .main--box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+  }
+
+
+
   .playerTurn {
     font-size: 28px;
     color: var(--yellow);
@@ -107,6 +116,17 @@ body{
 }
 
 @media only screen and (max-width: 479px){
+  .app{
+    height: 75dvh;
+  }
+  
+  .main--box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+
+  }
   .main--box{
     display: flex;
     flex-direction: column;
@@ -170,7 +190,23 @@ body{
   }
 }
 
+
+
+
 @media only screen and (max-width: 374px){
+  .app{
+    height: 75dvh;
+  }
+  .main--box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+  }
+
+
+
+
   .main--box{
     display: flex;
     flex-direction: column;
