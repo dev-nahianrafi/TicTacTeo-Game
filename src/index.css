@@ -83,6 +83,10 @@ body{
 
 
 @media only screen and (max-width: 575px){
+  .app{
+    height: 75dvh;
+  }
+
   .main--box{
     display: flex;
     flex-direction: column;
@@ -115,11 +119,13 @@ body{
   }
 }
 
+
+
 @media only screen and (max-width: 479px){
   .app{
     height: 75dvh;
   }
-  
+
   .main--box{
     display: flex;
     flex-direction: column;
