@@ -83,9 +83,9 @@ body{
 
 
 @media only screen and (max-width: 575px){
-  .app{
-    height: 75dvh;
-  }
+  .app {
+    height: 90dvh;
+}
 
   .main--box{
     display: flex;
@@ -122,9 +122,9 @@ body{
 
 
 @media only screen and (max-width: 479px){
-  .app{
-    height: 75dvh;
-  }
+  .app {
+    height: 90dvh;
+}
 
   .main--box{
     display: flex;
@@ -200,9 +200,9 @@ body{
 
 
 @media only screen and (max-width: 374px){
-  .app{
-    height: 75dvh;
-  }
+  .app {
+    height: 90dvh;
+}
   .main--box{
     display: flex;
     flex-direction: column;
